@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    place-content: center;
+}
+
+.form-group {
+    display: block;
+    margin-top: 50px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding-inline: 2rem;
+    cursor: pointer;
+}
+
+.result {
+    margin-bottom: 20px;
+}
